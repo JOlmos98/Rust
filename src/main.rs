@@ -1,7 +1,16 @@
+
+mod variables; //Importamos el módulo variables.
+
 fn main() {
     println!("Hello, world!");
+    println!("Imprimimos la variable importada de 'variables': {}", variables::MI_CONSTANTE);
+    variables::saludar(); //En Java sería algo como variables.saludar(), aquí se usan los dobles dos puntos "::".
 
-    /*let mut edad: String = String::new();
+
+
+    
+
+    /*let mut edad: String=String::new();
 
     println!("Inserta tu edad: ");
 
@@ -18,7 +27,7 @@ fn main() {
         println!("Eres MENOR de edad.");
     } else {
         println!("Eres MAYOR de edad.");
-    }
+    }*/
 
-    println!("El programa ha terminado correctamente.");*/
+    println!("El programa ha terminado correctamente.");
 }
