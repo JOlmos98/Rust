@@ -1,7 +1,7 @@
 fn main() {
     println!("Hello, world!");
 
-    let mut edad: String = String::new();
+    /*let mut edad: String = String::new();
 
     println!("Inserta tu edad: ");
 
@@ -9,6 +9,7 @@ fn main() {
         //.expect("Error al leer la entrada");
 
     //VER SI HAY QUE METER UN CRATE PARA IO O QUE PASA AQUI, VER SI CAMBIANDO EL NOMBRE DE MAIN.RS TAMBIEN FUNCIONA EL MAIN.
+    //Cambiamos a la rama main. 
 
     let edad: i32 = edad.trim().parse()
         .expect("Error al convertir la edad a un número");
@@ -19,5 +20,5 @@ fn main() {
         println!("Eres MAYOR de edad.");
     }
 
-    println!("El programa ha terminado correctamente.");
+    println!("El programa ha terminado correctamente.");*/
 }
