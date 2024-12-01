@@ -1,16 +1,19 @@
 
 mod variables; //Importamos el módulo variables.
+mod operaciones; //Importamos el módulo operaciones.
 mod adivinar_numero; //Importamos el módulo adivinar_numero. REMINDER: Usamos snake_case.
+
 
 fn main() {
     println!("Hello, world!");
+
     println!("Imprimimos la variable importada de 'variables': {}", variables::MI_CONSTANTE);
     variables::saludar(); //En Java sería algo como variables.saludar(), aquí se usan los dobles dos puntos "::".
+    variables::desc_variables();
 
-    adivinar_numero::adivinar_numero();
-
-
+    operaciones::operaciones();
     
+    adivinar_numero::adivinar_numero();
 
     /*let mut edad: String=String::new();
 
