@@ -1,6 +1,9 @@
 
+#[path="lib/variables.rs"]
 mod variables; //Importamos el módulo variables.
+#[path="lib/operaciones.rs"]
 mod operaciones; //Importamos el módulo operaciones.
+#[path="lib/adivinar_numero.rs"]
 mod adivinar_numero; //Importamos el módulo adivinar_numero. REMINDER: Usamos snake_case.
 
 

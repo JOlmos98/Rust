@@ -16,6 +16,7 @@ pub fn operaciones(){
     let f_b:f32=b as f32;
     let c:f32=0 as f32;
 
+    //Cargo nos avisa de que no se puede reasignar a una variable declarada como f32.
     println!("El resultado de la resta (a-b) inicializando C en esta propia línea es {}", c=f_a-f_b);
     println!("El resultado de la multiplicación (a*b) reasignando C en esta propia línea es {}", c=f_a*f_b);
     println!("El resultado de la división (a/b) reasignando C en esta propia línea es {}", c=f_a/f_b);
